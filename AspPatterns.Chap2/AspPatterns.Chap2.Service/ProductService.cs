@@ -12,10 +12,13 @@ namespace AspPatterns.Chap2.Service
     public class ProductService
     {
         private IProductRepository _productRepository;
+        private ICacheStorage _cacheStorage;
 
-        public ProductService(IProductRepository productRepository)
+        public ProductService(IProductRepository productRepository,
+            ICacheStorage cacheStorage)
         {
             _productRepository = productRepository;
+            _cacheStorage = cacheStorage;
         }
 
         public IList<Product> GetAllProductsIn(int categoryId)
@@ -23,27 +26,15 @@ namespace AspPatterns.Chap2.Service
             IList<Product> products;
             string storageKey = string.Format("products_in_category_id_{0}", categoryId);
 
-            products = GetListFromCache();
+            products = _cacheStorage.Retreive<List<Product>>(storageKey);
 
-            if(products == null)
+            if (products == null)
             {
                 products = _productRepository.GetAllProductsIn(categoryId);
-                InsertIntoCache(storageKey, products);
+                _cacheStorage.Store(storageKey, products);
             }
 
             return products;
-        }
-
-        private void InsertIntoCache(string storageKey, IList<Product> products)
-        {
-            //Code to insert product List into cache
-            throw new NotImplementedException();
-        }
-
-        private IList<Product> GetListFromCache()
-        {
-            //Code to get Product List from cache
-            throw new NotImplementedException();
         }
     }
 }
