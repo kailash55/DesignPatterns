@@ -43,6 +43,7 @@
     <Compile Include="BasicCacheAdapter.cs" />
     <Compile Include="ICacheStorage.cs" />
     <Compile Include="IProductRepository.cs" />
+    <Compile Include="NullCacheAdapter.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProductRepository.cs" />
     <Compile Include="ProductService.cs" />

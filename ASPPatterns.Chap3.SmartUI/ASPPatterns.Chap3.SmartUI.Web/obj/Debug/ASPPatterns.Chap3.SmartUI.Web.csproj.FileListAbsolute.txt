@@ -1,0 +1,9 @@
+D:\Asp.Net Design Patterns\ASPPatterns.Chap3.SmartUI\ASPPatterns.Chap3.SmartUI.Web\bin\ASPPatterns.Chap3.SmartUI.Web.dll.config
+D:\Asp.Net Design Patterns\ASPPatterns.Chap3.SmartUI\ASPPatterns.Chap3.SmartUI.Web\bin\ASPPatterns.Chap3.SmartUI.Web.dll
+D:\Asp.Net Design Patterns\ASPPatterns.Chap3.SmartUI\ASPPatterns.Chap3.SmartUI.Web\bin\ASPPatterns.Chap3.SmartUI.Web.pdb
+D:\Asp.Net Design Patterns\ASPPatterns.Chap3.SmartUI\ASPPatterns.Chap3.SmartUI.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Asp.Net Design Patterns\ASPPatterns.Chap3.SmartUI\ASPPatterns.Chap3.SmartUI.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Asp.Net Design Patterns\ASPPatterns.Chap3.SmartUI\ASPPatterns.Chap3.SmartUI.Web\obj\Debug\ASPPatterns.Chap3.SmartUI.Web.csproj.CoreCompileInputs.cache
+D:\Asp.Net Design Patterns\ASPPatterns.Chap3.SmartUI\ASPPatterns.Chap3.SmartUI.Web\obj\Debug\ASPPatterns.Chap3.SmartUI.Web.dll
+D:\Asp.Net Design Patterns\ASPPatterns.Chap3.SmartUI\ASPPatterns.Chap3.SmartUI.Web\obj\Debug\ASPPatterns.Chap3.SmartUI.Web.pdb
+D:\Asp.Net Design Patterns\ASPPatterns.Chap3.SmartUI\ASPPatterns.Chap3.SmartUI.Web\obj\Debug\ASPPatterns.Chap3.SmartUI.Web.csprojResolveAssemblyReference.cache
