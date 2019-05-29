@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.0": {
+      "ASPPatterns.Chap3.Layered.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ASPPatterns.Chap3.Layered.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ASPPatterns.Chap3.Layered.Model.dll": {}
+        }
+      },
+      "ASPPatterns.Chap3.Layered.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ASPPatterns.Chap3.Layered.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ASPPatterns.Chap3.Layered.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ASPPatterns.Chap3.Layered.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ASPPatterns.Chap3.Layered.Model/1.0.0": {
+      "type": "project",
+      "path": "../ASPPatterns.Chap3.Layered.Model/ASPPatterns.Chap3.Layered.Model.csproj",
+      "msbuildProject": "../ASPPatterns.Chap3.Layered.Model/ASPPatterns.Chap3.Layered.Model.csproj"
+    },
+    "ASPPatterns.Chap3.Layered.Repository/1.0.0": {
+      "type": "project",
+      "path": "../ASPPatterns.Chap3.Layered.Repository/ASPPatterns.Chap3.Layered.Repository.csproj",
+      "msbuildProject": "../ASPPatterns.Chap3.Layered.Repository/ASPPatterns.Chap3.Layered.Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.0": [
+      "ASPPatterns.Chap3.Layered.Model >= 1.0.0",
+      "ASPPatterns.Chap3.Layered.Repository >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kailash\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
+    "restore": {
+      "projectUniqueName": "D:\\Asp.Net Design Patterns\\ASPPatterns.Chap3.Layered\\ASPPatterns.Chap3.Layered.Service\\ASPPatterns.Chap3.Layered.Service.csproj",
+      "projectName": "ASPPatterns.Chap3.Layered.Service",
+      "projectPath": "D:\\Asp.Net Design Patterns\\ASPPatterns.Chap3.Layered\\ASPPatterns.Chap3.Layered.Service\\ASPPatterns.Chap3.Layered.Service.csproj",
+      "packagesPath": "C:\\Users\\Kailash\\.nuget\\packages\\",
+      "outputPath": "D:\\Asp.Net Design Patterns\\ASPPatterns.Chap3.Layered\\ASPPatterns.Chap3.Layered.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Kailash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "projectReferences": {
+            "D:\\Asp.Net Design Patterns\\ASPPatterns.Chap3.Layered\\ASPPatterns.Chap3.Layered.Model\\ASPPatterns.Chap3.Layered.Model.csproj": {
+              "projectPath": "D:\\Asp.Net Design Patterns\\ASPPatterns.Chap3.Layered\\ASPPatterns.Chap3.Layered.Model\\ASPPatterns.Chap3.Layered.Model.csproj"
+            },
+            "D:\\Asp.Net Design Patterns\\ASPPatterns.Chap3.Layered\\ASPPatterns.Chap3.Layered.Repository\\ASPPatterns.Chap3.Layered.Repository.csproj": {
+              "projectPath": "D:\\Asp.Net Design Patterns\\ASPPatterns.Chap3.Layered\\ASPPatterns.Chap3.Layered.Repository\\ASPPatterns.Chap3.Layered.Repository.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "netstandard2.0": {}
+    }
+  }
+}

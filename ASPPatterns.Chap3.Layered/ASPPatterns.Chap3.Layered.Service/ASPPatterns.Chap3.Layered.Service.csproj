@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ASPPatterns.Chap3.Layered.Model\ASPPatterns.Chap3.Layered.Model.csproj" />
+    <ProjectReference Include="..\ASPPatterns.Chap3.Layered.Repository\ASPPatterns.Chap3.Layered.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
