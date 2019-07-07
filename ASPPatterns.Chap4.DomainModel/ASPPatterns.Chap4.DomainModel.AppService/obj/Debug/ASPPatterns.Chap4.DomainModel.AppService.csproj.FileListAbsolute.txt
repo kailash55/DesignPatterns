@@ -1,0 +1,2 @@
+D:\Asp.Net Design Patterns\ASPPatterns.Chap4.DomainModel\ASPPatterns.Chap4.DomainModel.AppService\obj\Debug\ASPPatterns.Chap4.DomainModel.AppService.csprojResolveAssemblyReference.cache
+D:\Asp.Net Design Patterns\ASPPatterns.Chap4.DomainModel\ASPPatterns.Chap4.DomainModel.AppService\obj\Debug\ASPPatterns.Chap4.DomainModel.AppService.csproj.CoreCompileInputs.cache
